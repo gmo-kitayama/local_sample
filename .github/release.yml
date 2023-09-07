@@ -2,8 +2,6 @@ changelog:
   exclude:
     labels:
       - ignore-for-release
-    authors:
-      - octocat
   categories:
     - title: Breaking Changes
       labels:
@@ -13,6 +11,9 @@ changelog:
       labels:
         - Semver-Minor
         - enhancement
+    - title: Bug Fixed
+      labels:
+        - bug
     - title: Other Changes
       labels:
         - "*"
